@@ -32,9 +32,9 @@ files:
 build_steps:
 
   - cd my_package 
-  - ./build.sh
+  - build.sh
   - cd ../PWCNet/correlation_package_pytorch1_0
-  - ./build.sh
+  - build.sh
   - cd DAIN
   - mkdir model_weights
   - mkdir MiddleBurySet
